@@ -4,7 +4,7 @@
 >
 > Currently, the PoC can connect to a user's telegram account and fetch their chat history and store it a `.json` file
 
-## For a direct view of outputs, check out [PoC Example Pictures | PICTURES.md]()
+## For a direct view of outputs, check out [PoC Example Pictures | PICTURES.md](https://github.com/AJThePro99/openvino-messenger-poc/blob/main/pictures-proof/PICTURES.md)
 
 This script retrieves messages from a user's Telegram chats using the **Telethon** library.
 
@@ -80,7 +80,7 @@ ___
 
 # What this proves
 
-> Have a look at [PICTURES.md]() so that you fully understand what this program does
+> Have a look at [PICTURES.md](https://github.com/AJThePro99/openvino-messenger-poc/blob/main/pictures-proof/PICTURES.md) so that you fully understand what this program does
 
 For this [particular project](https://github.com/openvinotoolkit/openvino/wiki/Google-Summer-Of-Code#2-openvino-messenger-ai-assistant-for-an-ai-pc),
 there are four main parts:
