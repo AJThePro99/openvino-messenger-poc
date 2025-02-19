@@ -1,5 +1,11 @@
 # Telegram Chat Fetcher
 
+> This is phase one of the proof of concept for [OpenVINO Messenger AI-Assistant for AI PC](https://github.com/openvinotoolkit/openvino/wiki/Google-Summer-Of-Code#2-openvino-messenger-ai-assistant-for-an-ai-pc)
+> 
+> Currently, the PoC can connect to a user's telegram account and fetch their chat history and store it a `.json` file
+>
+ 
+
 This script retrieves messages from a user's Telegram chats using the **Telethon** library.
 
 ## Features
@@ -51,7 +57,5 @@ ___
 ```
 
 2. Sign in using your phone number (OTP-based authentication).
-
 3. The script will list all available chats. Enter the chat name or ID to fetch messages.
-
 4. Messages will be saved in a JSON file in the format: chat_<chat_id>.json.
