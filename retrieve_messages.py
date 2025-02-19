@@ -33,7 +33,7 @@ async def fetch_messages(chat_id):
     print(f"\nFetching messages from chat ID {chat_id}...\n")
     messages = []
 
-    async for message in client.iter_messages(chat_id, limit=10):  # Fetch last 10 messages
+    async for message in client.iter_messages(chat_id):  # Fetch last 10 messages
         sender = message.sender_id or "Unknown"
         messages.append({"sender": sender, "text": message.text, "date": str(message.date)})
 
