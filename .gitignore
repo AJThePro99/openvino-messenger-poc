@@ -1,0 +1,4 @@
+.env
+telegram-bots/bot keys.txt
+user_session.session
+*.json
